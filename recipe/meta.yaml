@@ -1,6 +1,6 @@
 {% set name = "pyfmmlib" %}
-{% set version = "2017.1" %}
-{% set sha256 = "f1646478ab078ec6402e7f9e842ea0cdbec24044d2ef44ca1d3f8430379b9c37" %}
+{% set version = "2018.1" %}
+{% set sha256 = "991c75436ce527eb4c57ab64c9207ec95d2601e77fbe24627ff6363b3dfaf0a5" %}
 
 package:
   name: {{ name|lower }}
@@ -42,7 +42,7 @@ test:
 
 about:
     home: https://github.com/inducer/pyfmmlib
-    license: GPL-2.0
+    license: MIT/3-clause BSD
     license_file: README.rst
     summary: 'Python wrappers for FMMLIB2D and FMMLIB3D'
 

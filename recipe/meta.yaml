@@ -1,6 +1,7 @@
 {% set name = "pyfmmlib" %}
 {% set version = "2018.1" %}
 {% set sha256 = "991c75436ce527eb4c57ab64c9207ec95d2601e77fbe24627ff6363b3dfaf0a5" %}
+{% set build_number = "0" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +13,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: {{ build_number }}
   script: ./setup.sh opt install --single-version-externally-managed --record record.txt
   skip: True  # [win]
 

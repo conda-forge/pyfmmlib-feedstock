@@ -9,9 +9,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  # url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  url: https://pypi.python.org/packages/f9/8f/2ed6b2bc455f6d1eb35b84da1d68fd4b8120ed844ac1c5a13d846261c346/pyfmmlib-2018.1.tar.gz
-  # FIXME: Replace URL
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:

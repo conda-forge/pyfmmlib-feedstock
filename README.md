@@ -3,7 +3,7 @@ About pyfmmlib
 
 Home: https://github.com/inducer/pyfmmlib
 
-Package license: GPL-2.0
+Package license: MIT/BSD-3-Clause
 
 Feedstock license: BSD 3-Clause
 

@@ -14,14 +14,16 @@ Summary: Python wrappers for FMMLIB2D and FMMLIB3D
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pyfmmlib-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pyfmmlib-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pyfmmlib-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pyfmmlib-feedstock)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/pyfmmlib-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/pyfmmlib-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/pyfmmlib-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/pyfmmlib-feedstock)
+![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyfmmlib/badges/version.svg)](https://anaconda.org/conda-forge/pyfmmlib)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyfmmlib/badges/downloads.svg)](https://anaconda.org/conda-forge/pyfmmlib)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pyfmmlib-green.svg)](https://anaconda.org/conda-forge/pyfmmlib) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pyfmmlib.svg)](https://anaconda.org/conda-forge/pyfmmlib) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pyfmmlib.svg)](https://anaconda.org/conda-forge/pyfmmlib) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pyfmmlib.svg)](https://anaconda.org/conda-forge/pyfmmlib) |
 
 Installing pyfmmlib
 ===================

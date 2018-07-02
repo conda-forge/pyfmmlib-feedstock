@@ -21,10 +21,10 @@ requirements:
   build:
     - {{ compiler('fortran') }}
     - {{ compiler('c') }}
+    - toolchain3
   host:
     - python
     - setuptools
-    - toolchain3
     - numpy
     - mako
   run:

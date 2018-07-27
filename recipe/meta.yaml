@@ -29,6 +29,7 @@ requirements:
   run:
     - python
     - numpy
+    - libgfortran>=3.0.1  # [osx]
 
 test:
     requires:

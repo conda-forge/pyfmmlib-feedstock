@@ -1,6 +1,6 @@
 {% set name = "pyfmmlib" %}
-{% set version = "2018.1.1" %}
-{% set sha256 = "10daab6dec41043d52cc1fefd8b43dd9502041038636d52d1b44c3afbc7f0f98" %}
+{% set version = "2018.1.2" %}
+{% set sha256 = "846cc671efa243fc0c1199be93a15d7a200050cb0bfa1fe03c40b32c6e93e2c1" %}
 {% set build_number = 0 %}
 
 package:

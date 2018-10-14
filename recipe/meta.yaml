@@ -1,7 +1,7 @@
 {% set name = "pyfmmlib" %}
 {% set version = "2018.1.3" %}
 {% set sha256 = "99f242210f235d80bc828f0fa64d63fad003aa1f568e6702450adb56bdd65f3c" %}
-{% set build_number = 0 %}
+{% set build_number = 1000 %}
 
 package:
   name: {{ name|lower }}
@@ -20,7 +20,6 @@ requirements:
   build:
     - {{ compiler('fortran') }}
     - {{ compiler('c') }}
-    - toolchain3
   host:
     - python
     - setuptools
@@ -28,8 +27,7 @@ requirements:
     - mako
   run:
     - python
-    - numpy
-    - libgfortran >=3.0.1  # [osx]
+    - {{ pin_compatible('numpy') }}
 
 test:
     requires:

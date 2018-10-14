@@ -20,7 +20,6 @@ requirements:
   build:
     - {{ compiler('fortran') }}
     - {{ compiler('c') }}
-    - toolchain3
   host:
     - python
     - setuptools
@@ -28,8 +27,7 @@ requirements:
     - mako
   run:
     - python
-    - numpy
-    - libgfortran >=3.0.1  # [osx]
+    - {{ pin_compatible('numpy') }}
 
 test:
     requires:

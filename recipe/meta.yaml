@@ -14,12 +14,13 @@ source:
 
 build:
   number: {{ build_number }}
-  skip: True  # [win]
 
 requirements:
   build:
-    - {{ compiler('fortran') }}
-    - {{ compiler('c') }}
+    - {{ compiler('fortran') }}  # [not win]
+    - {{ compiler('c') }}        # [not win]
+    - {{ compiler('m2w64_c') }}  # [win]
+    - {{ compiler('m2w64_fortran') }}  # [win]
   host:
     - python
     - setuptools
@@ -30,23 +31,23 @@ requirements:
     - {{ pin_compatible('numpy') }}
 
 test:
-    requires:
-        - pytest
-    imports:
-        - {{ name }}
-    source_files:
-        - test
-    commands:
-        - cd test && python -m pytest
+  requires:
+    - pytest
+  imports:
+    - {{ name }}
+  source_files:
+    - test
+  commands:
+    - cd test && python -m pytest
 
 about:
-    home: https://github.com/inducer/pyfmmlib
-    license: MIT/BSD-3-Clause
-    license_file: README.rst
-    summary: 'Python wrappers for FMMLIB2D and FMMLIB3D'
-
-    dev_url: https://github.com/inducer/pyfmmlib
+  home: https://github.com/inducer/pyfmmlib
+  license: MIT/BSD-3-Clause
+  license_file: README.rst
+  summary: 'Python wrappers for FMMLIB2D and FMMLIB3D'
+  dev_url: https://github.com/inducer/pyfmmlib
 
 extra:
-    recipe-maintainers:
+  recipe-maintainers:
     - inducer
+    - isuruf

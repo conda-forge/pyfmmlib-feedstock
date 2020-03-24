@@ -1,7 +1,7 @@
 {% set name = "pyfmmlib" %}
 {% set version = "2019.1.5" %}
 {% set sha256 = "b47e61be41474425852dfa2ad00757fd1327b76869d518c10c9578a522ba46d8" %}
-{% set build_number = 0 %}
+{% set build_number = 1 %}
 
 package:
   name: {{ name|lower }}
@@ -42,7 +42,7 @@ test:
 
 about:
   home: https://github.com/inducer/pyfmmlib
-  license: MIT/BSD-3-Clause
+  license: MIT AND BSD-3-Clause
   license_file: README.rst
   summary: 'Python wrappers for FMMLIB2D and FMMLIB3D'
   dev_url: https://github.com/inducer/pyfmmlib

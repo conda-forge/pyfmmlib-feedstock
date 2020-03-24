@@ -42,7 +42,7 @@ test:
 
 about:
   home: https://github.com/inducer/pyfmmlib
-  license: MIT/BSD-3-Clause
+  license: MIT AND BSD-3-Clause
   license_file: README.rst
   summary: 'Python wrappers for FMMLIB2D and FMMLIB3D'
   dev_url: https://github.com/inducer/pyfmmlib

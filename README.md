@@ -29,13 +29,6 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_numpy1.19python3.7.____73_pypy</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=869&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyfmmlib-feedstock?branchName=main&jobName=linux&configuration=linux_64_numpy1.19python3.7.____73_pypy" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_64_numpy1.19python3.7.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=869&branchName=main">
@@ -43,10 +36,24 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>linux_64_numpy1.19python3.8.____73_pypy</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=869&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyfmmlib-feedstock?branchName=main&jobName=linux&configuration=linux_64_numpy1.19python3.8.____73_pypy" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>linux_64_numpy1.19python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=869&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyfmmlib-feedstock?branchName=main&jobName=linux&configuration=linux_64_numpy1.19python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_numpy1.19python3.9.____73_pypy</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=869&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyfmmlib-feedstock?branchName=main&jobName=linux&configuration=linux_64_numpy1.19python3.9.____73_pypy" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -64,13 +71,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_numpy1.19python3.7.____73_pypy</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=869&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyfmmlib-feedstock?branchName=main&jobName=linux&configuration=linux_aarch64_numpy1.19python3.7.____73_pypy" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_aarch64_numpy1.19python3.7.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=869&branchName=main">
@@ -78,10 +78,24 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>linux_aarch64_numpy1.19python3.8.____73_pypy</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=869&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyfmmlib-feedstock?branchName=main&jobName=linux&configuration=linux_aarch64_numpy1.19python3.8.____73_pypy" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>linux_aarch64_numpy1.19python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=869&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyfmmlib-feedstock?branchName=main&jobName=linux&configuration=linux_aarch64_numpy1.19python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_numpy1.19python3.9.____73_pypy</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=869&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyfmmlib-feedstock?branchName=main&jobName=linux&configuration=linux_aarch64_numpy1.19python3.9.____73_pypy" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -99,13 +113,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_numpy1.19python3.7.____73_pypy</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=869&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyfmmlib-feedstock?branchName=main&jobName=linux&configuration=linux_ppc64le_numpy1.19python3.7.____73_pypy" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_ppc64le_numpy1.19python3.7.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=869&branchName=main">
@@ -113,10 +120,24 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>linux_ppc64le_numpy1.19python3.8.____73_pypy</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=869&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyfmmlib-feedstock?branchName=main&jobName=linux&configuration=linux_ppc64le_numpy1.19python3.8.____73_pypy" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>linux_ppc64le_numpy1.19python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=869&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyfmmlib-feedstock?branchName=main&jobName=linux&configuration=linux_ppc64le_numpy1.19python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_ppc64le_numpy1.19python3.9.____73_pypy</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=869&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyfmmlib-feedstock?branchName=main&jobName=linux&configuration=linux_ppc64le_numpy1.19python3.9.____73_pypy" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -134,13 +155,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_numpy1.19python3.7.____73_pypy</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=869&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyfmmlib-feedstock?branchName=main&jobName=osx&configuration=osx_64_numpy1.19python3.7.____73_pypy" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>osx_64_numpy1.19python3.7.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=869&branchName=main">
@@ -148,10 +162,24 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>osx_64_numpy1.19python3.8.____73_pypy</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=869&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyfmmlib-feedstock?branchName=main&jobName=osx&configuration=osx_64_numpy1.19python3.8.____73_pypy" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>osx_64_numpy1.19python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=869&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyfmmlib-feedstock?branchName=main&jobName=osx&configuration=osx_64_numpy1.19python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_numpy1.19python3.9.____73_pypy</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=869&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyfmmlib-feedstock?branchName=main&jobName=osx&configuration=osx_64_numpy1.19python3.9.____73_pypy" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -197,10 +225,24 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>win_64_numpy1.19python3.8.____73_pypy</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=869&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyfmmlib-feedstock?branchName=main&jobName=win&configuration=win_64_numpy1.19python3.8.____73_pypy" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>win_64_numpy1.19python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=869&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyfmmlib-feedstock?branchName=main&jobName=win&configuration=win_64_numpy1.19python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_numpy1.19python3.9.____73_pypy</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=869&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyfmmlib-feedstock?branchName=main&jobName=win&configuration=win_64_numpy1.19python3.9.____73_pypy" alt="variant">
                 </a>
               </td>
             </tr><tr>

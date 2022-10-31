@@ -24,6 +24,8 @@ requirements:
     - {{ compiler('c') }}        # [not win]
     - {{ compiler('m2w64_c') }}  # [win]
     - {{ compiler('m2w64_fortran') }}  # [win]
+    - llvm-openmp   # [osx]
+    - libgomp       # [linux]
   host:
     - python
     - setuptools <65

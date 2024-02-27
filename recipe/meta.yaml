@@ -28,7 +28,8 @@ requirements:
     - libgomp       # [linux]
   host:
     - python
-    - setuptools <65
+    - pip
+    - meson
     - numpy
     - mako
   run:

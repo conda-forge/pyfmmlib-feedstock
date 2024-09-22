@@ -37,3 +37,19 @@ zip_keys:
   - fortran_compiler_version
 - - python
   - numpy
+
+CONDA_BUILD_SYSROOT:
+- /var/folders/w4/9hgdmgy56394v5rv6hxx2yk80000gn/T/tmp.XuSPg6Nm9k/MacOSX11.0.sdk
+
+
+CONDA_BUILD_SYSROOT:
+- /var/folders/w4/9hgdmgy56394v5rv6hxx2yk80000gn/T/tmp.dFSoz7SXsO/MacOSX11.0.sdk
+
+
+CONDA_BUILD_SYSROOT:
+- /var/folders/w4/9hgdmgy56394v5rv6hxx2yk80000gn/T/tmp.kkQ75BFFXH/MacOSX11.0.sdk
+
+
+CONDA_BUILD_SYSROOT:
+- /var/folders/w4/9hgdmgy56394v5rv6hxx2yk80000gn/T/tmp.lbc58obeaT/MacOSX11.0.sdk
+

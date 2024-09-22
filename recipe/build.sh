@@ -1,7 +1,10 @@
 #! /bin/bash
+
+set -ex
+
 export LDFLAGS="$LDFLAGS -fopenmp"
 
-python setup.py install --single-version-externally-managed --record record.txt
+pip install . -vv
 
 echo "======================================================" >> README.rst
 echo "fmmlib3d is licensed as follows" >> README.rst

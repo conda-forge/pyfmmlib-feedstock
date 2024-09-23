@@ -38,6 +38,7 @@ requirements:
     - meson-python
     - ninja
     - pkg-config
+    - python-build
   run:
     - python
 

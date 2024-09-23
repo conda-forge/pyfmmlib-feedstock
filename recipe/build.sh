@@ -14,8 +14,11 @@ echo "python = '${PREFIX}/bin/python'" >> ${CONDA_PREFIX}/meson_cross_file.txt
 if [[ $CONDA_BUILD_CROSS_COMPILATION -eq 1 ]]; then
     # Needed?:
     # MESON_ARGS="--cross-file ${CONDA_PREFIX}/meson_cross_file.txt"
+    echo "[properties]" >> ${CONDA_PREFIX}/meson_cross_file.txt
     echo "skip_sanity_check = true" >> ${CONDA_PREFIX}/meson_cross_file.txt
 fi
+
+cat ${CONDA_PREFIX}/meson_cross_file.txt
 
 # need to run meson first for cross-compilation case
 ${PYTHON} $(which meson) setup ${MESON_ARGS} \

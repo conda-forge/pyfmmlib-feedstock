@@ -11,6 +11,10 @@ export LDFLAGS="$LDFLAGS -fopenmp"
 # to use host python; requires that [binaries] section is last in meson_cross_file
 echo "python = '${PREFIX}/bin/python'" >> ${CONDA_PREFIX}/meson_cross_file.txt
 
+# need to run meson first for cross-compilation case
+${PYTHON} $(which meson) setup ${MESON_ARGS} \
+    builddir || (cat builddir/meson-logs/meson-log.txt && exit 1)
+
 pip install . -vv
 
 echo "======================================================" >> README.rst

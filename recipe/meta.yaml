@@ -1,7 +1,7 @@
 {% set name = "pyfmmlib" %}
 {% set version = "2024.1.1" %}
 {% set sha256 = "1c48575c133499b6ec0130d866694bccbda52c842f2fb9f9277b1ccfc19323ac" %}
-{% set build_number = 1 %}
+{% set build_number = 2 %}
 
 package:
   name: {{ name|lower }}

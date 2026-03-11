@@ -11,7 +11,7 @@ export LDFLAGS="$LDFLAGS -fopenmp"
 # -wnx flags mean: --wheel --no-isolation --skip-dependency-check
 $PYTHON -m build -w -n -x \
     -Cbuilddir=builddir \
-    -Csetup-args=${MESON_ARGS_REDUCED// / -Csetup-args=} \
+    -Csetup-args=${MESON_ARGS// / -Csetup-args=} \
     || (cat builddir/meson-logs/meson-log.txt && exit 1)
 
 
